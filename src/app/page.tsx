@@ -14,24 +14,24 @@ export default function Home() {
       <p className="text-balance text-muted-foreground">
         Transforming ideas into successful ventures.
       </p>
-      <div className="flex gap-2 mt-4">
+      <div className="grid grid-cols-2 gap-2 mt-4 md:flex md:flex-wrap md:gap-2 md:space-x-2 md:space-y-0">
         <Link href="https://instagram.com/azzlkn" target="_blank">
-          <Button>
+          <Button className="w-full md:w-auto">
             <Instagram className="mr-2 h-4 w-4" /> @azzlkn
           </Button>
         </Link>
         <Link href="https://x.com/azzlkn" target="_blank">
-          <Button>
+          <Button className="w-full md:w-auto">
             <Twitter className="mr-2 h-4 w-4" /> @azzlkn
           </Button>
         </Link>
         <Link href="https://linkedin.com/in/azzlkn" target="_blank">
-          <Button>
+          <Button className="w-full md:w-auto">
             <Linkedin className="mr-2 h-4 w-4" /> @azzlkn
           </Button>
         </Link>
         <Link href="https://youtube.com/@azzlkn" target="_blank">
-          <Button>
+          <Button className="w-full md:w-auto">
             <Youtube className="mr-2 h-4 w-4" /> @azzlkn
           </Button>
         </Link>
